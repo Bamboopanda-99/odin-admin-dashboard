@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project: Admin Dashboard</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--App drawer-->
+    <div class="drawer">
+      <div class="dashboard menuItem">
+        <img src="/icons/view-dashboard.svg" alt="" height="20px" />
+        <h1>Dashboard</h1>
+      </div>
+
+      <div class="menuItem">
+        <img src="/icons/home-account.svg" alt="" height="20px" />
+        <h1>Home</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/card-account-details.svg" alt="" height="20px" />
+        <h1>Profile</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/message-question.svg" alt="" height="20px" />
+        <h1>Messages</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/clock-outline.svg" alt="" height="20px" />
+        <h1>History</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/note-multiple.svg" alt="" height="20px" />
+        <h1>Tasks</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/account-group-outline.svg" alt="" height="20px" />
+        <h1>Communities</h1>
+      </div>
+
+      <!--Need extra space-->
+      <div class="menuItem">
+        <img src="/icons/cog.svg" alt="" height="20px" />
+        <h1>Settings</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/message-question.svg" alt="" height="20px" />
+        <h1>Support</h1>
+      </div>
+      <div class="menuItem">
+        <img src="/icons/shield-check-outline.svg" alt="" height="20px" />
+        <h1>Privacy</h1>
+      </div>
+    </div>
+    <!--Navbar-->
+    <div class="navbar">
+      <!--Top section-->
+      <div class="topNav">
+        <!--search icon and search bar-->
+        <div class="search">
+          <div class="menuItem">
+            <img src="/icons/magnify.svg" alt="" height="20px" />
+          </div>
+          <input type="text" name="search" autocomplete="off" />
+        </div>
+        <div class="account">
+          <div class="menuIcon">
+            <img src="/icons/bell-ring-outline.svg" alt="" height="20px" />
+          </div>
+          <!--avatar from github (gh = github)-->
+          <div class="gh-avatar"></div>
+          <!--my username-->
+          <p class="name">Bamboo Panda</p>
+        </div>
+      </div>
+      <!--bottom section-->
+      <div class="bottom">
+        <!--profile details-->
+        <div class="profile">
+          <div class="gh-avatar"></div>
+          <div class="profile-name">
+            <p class="greeting">Hi there,</p>
+            <p class="name">Bamboo<span class="username"> (@panda)></span></p>
+          </div>
+        </div>
+        <!--button section-->
+        <div class="buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Main Content-->
+    <main class="content">
+      <div class="projects">
+        <h3>Your Projects</h3>
+        <!--section for all project cards-->
+        <div class="cards">
+          <!--All 6 cards-->
+          <div class="card">
+            <h5 class="card-title">Super Cool Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Less Cool Project</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Impossible App</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Easy Peasy App</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Ad Blocker</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title">Money Maker</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud
+            </p>
+            <div class="icons">
+              <img src="/icons/star-plus.svg" alt="" height="20px" />
+              <img src="icons/eye-plus-outline.svg" alt="" height="20px" />
+              <img src="/icons/source-branch.svg" alt="" height="20px" />
+            </div>
+          </div>
+          <!--side content - Announcements and trending-->
+
+          <!--announcements section  -->
+          <div class="announcements">
+            <ul class="card">
+              <li class="announcement">
+                <h5 class="card-title">Site Maintenance</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+              </li>
+              <li class="announcement">
+                <h5 class="card-title">Community Share Day</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+              </li>
+              <li class="announcement">
+                <h5 class="card-title">Updated Privacy Policy</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--trending section-->
+          <div class="trending">
+            <h3>Trending</h3>
+            <ul class="card">
+              <li class="trend trend-1">
+                <div class="gh-avatar2"></div>
+                <div class="account">
+                  <p class="username">@tegan</p>
+                  <p class="name card-text">Super Cool Project</p>
+                </div>
+              </li>
+              <li class="trend trend-2">
+                <div class="gh-avatar2"></div>
+                <div class="account">
+                  <p class="username">@morgan</p>
+                  <p class="name card-text">World Peace Builder</p>
+                </div>
+              </li>
+              <li class="trend trend-3">
+                <div class="gh-avatar2"></div>
+                <div class="account">
+                  <p class="username">@kendall</p>
+                  <p class="name card-text">Life Changing App</p>
+                </div>
+              </li>
+              <li class="trend trend-4">
+                <div class="gh-avatar2"></div>
+                <div class="account">
+                  <p class="username">@alex</p>
+                  <p class="name card-text">No Traffic Maker</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
