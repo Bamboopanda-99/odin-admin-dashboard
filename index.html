@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project: Admin Dashboard</title>
     <link rel="stylesheet" href="reset.css" />
@@ -63,7 +64,7 @@
           <div class="menuItem">
             <img src="/icons/magnify.svg" alt="" height="20px" />
           </div>
-          <input type="text" name="search" autocomplete="off" />
+          <input type="text" name="search" />
         </div>
         <div class="account">
           <div class="menuIcon">
@@ -82,7 +83,7 @@
           <div class="gh-avatar"></div>
           <div class="profile-name">
             <p class="greeting">Hi there,</p>
-            <p class="name">Bamboo<span class="username"> (@panda)></span></p>
+            <p class="name">Bamboo<span class="username"> (@panda)</span></p>
           </div>
         </div>
         <!--button section-->
@@ -179,72 +180,75 @@
               <img src="/icons/source-branch.svg" alt="" height="20px" />
             </div>
           </div>
-          <!--side content - Announcements and trending-->
-
-          <!--announcements section  -->
-          <div class="announcements">
-            <ul class="card">
-              <li class="announcement">
-                <h5 class="card-title">Site Maintenance</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
-              </li>
-              <li class="announcement">
-                <h5 class="card-title">Community Share Day</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
-              </li>
-              <li class="announcement">
-                <h5 class="card-title">Updated Privacy Policy</h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <!--trending section-->
-          <div class="trending">
-            <h3>Trending</h3>
-            <ul class="card">
-              <li class="trend trend-1">
-                <div class="gh-avatar2"></div>
-                <div class="account">
-                  <p class="username">@tegan</p>
-                  <p class="name card-text">Super Cool Project</p>
-                </div>
-              </li>
-              <li class="trend trend-2">
-                <div class="gh-avatar2"></div>
-                <div class="account">
-                  <p class="username">@morgan</p>
-                  <p class="name card-text">World Peace Builder</p>
-                </div>
-              </li>
-              <li class="trend trend-3">
-                <div class="gh-avatar2"></div>
-                <div class="account">
-                  <p class="username">@kendall</p>
-                  <p class="name card-text">Life Changing App</p>
-                </div>
-              </li>
-              <li class="trend trend-4">
-                <div class="gh-avatar2"></div>
-                <div class="account">
-                  <p class="username">@alex</p>
-                  <p class="name card-text">No Traffic Maker</p>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
+      </div>
+
+      <!--side content - Announcements and trending-->
+
+      <!--announcements section  -->
+      <div class="announcements">
+        <h3>Announcements</h3>
+        <ul class="card">
+          <li class="announcement">
+            <h4 class="card-title">Site Maintenance</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </li>
+          <li class="announcement">
+            <h4 class="card-title">Community Share Day</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </li>
+          <li class="announcement">
+            <h4 class="card-title">Updated Privacy Policy</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!--trending section-->
+      <div class="trending">
+        <h3>Trending</h3>
+        <ul class="card">
+          <li class="trend trend-1">
+            <div class="gh-avatar2"></div>
+            <div class="account">
+              <p class="username">@tegan</p>
+              <p class="name card-text">Super Cool Project</p>
+            </div>
+          </li>
+          <li class="trend trend-2">
+            <div class="gh-avatar2"></div>
+            <div class="account">
+              <p class="username">@morgan</p>
+              <p class="name card-text">World Peace Builder</p>
+            </div>
+          </li>
+          <li class="trend trend-3">
+            <div class="gh-avatar2"></div>
+            <div class="account">
+              <p class="username">@kendall</p>
+              <p class="name card-text">Life Changing App</p>
+            </div>
+          </li>
+          <li class="trend trend-4">
+            <div class="gh-avatar2"></div>
+            <div class="account">
+              <p class="username">@alex</p>
+              <p class="name card-text">No Traffic Maker</p>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
   </body>
